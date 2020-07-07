@@ -8,10 +8,10 @@ const hotOrCold = document.getElementById('hot-cold');
 const result = document.getElementById('win-loss');
 
 // initialize state
-
+let attempts = 4;
 
 // set event listeners to update state and DOM
-
-
+button.addEventListener('click', ()=>{
+    
 
 })
