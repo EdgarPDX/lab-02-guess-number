@@ -13,24 +13,26 @@
 </head>
 
 <body>
-    <header> GUESS THE NUMBER!
-        
-    </header>
     <main>
-        <br>
-        <h1>RULES</h1>
-        <br>
+        <div class="header"> GUESS THE NUMBER!</div>
+        <div class="rules-heading">RULES</div>
+        
             <div class="rules">
-            Try to guess the random number within 4 attempts.
+            Try to guess the number between 1-20. You ONLY have 4 attempts.
             If you guess correctly, you win the JACKPOT!
             </div>
-            <br>
-            <input id="user-input"/>
-            <span id="hot-cold"></span>
-            <br>
-            <button id="button">GUESS</button>
-            <span id="attempts-left"></span>
-            <div id="win-loss"></div>
+
+            <div class="input-section">
+                <input id="user-input"class="input"/>
+            </div>
+
+            <span id="hot-cold"class="how-close"></span>
+
+            <div class="button-section">
+                <button id="button" class="button">GUESS</button>
+            </div>
+            <span id="attempts-left"class="attempts"></span>
+            <div id="win-loss" class="result"></div>
             
         
 
