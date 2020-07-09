@@ -1,0 +1,141 @@
+
+body {
+    /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
+    --color1: hsla(0, 1%, 99%, 1);
+    --color2: hsla(189, 6%, 84%, 1);
+    --color3: hsla(203, 16%, 77%, 1);
+    --color4: hsla(190, 19%, 53%, 1);
+    --color5: hsla(140, 94%, 79%, 1);
+
+     
+    --header-height: 80px;
+    --shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
+    --gutter: 30px;
+    --footer-height: 25px;
+    
+    font-family: 'Titillium Web', sans-serif;
+    background-image: url(https://images.prismic.io/desplaines-rushstreetgaming/b0c06a11-7e2b-41ff-a1e0-f38738e2224e_622_chips_stack-min.jpg?auto=compress,format);
+    background-repeat: no-repeat round;
+    background-size: cover;
+    color: white;
+}
+
+main {
+    height: 100vh;
+    display: grid;
+    flex-direction: column;
+    
+}
+
+.header {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    font-size:6rem;
+    font-weight: bold;
+    background-color: hsla(203, 16%, 77%, 1);
+    
+}
+
+.rules-heading {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-weight: bold;
+    color:var(--color3);
+}
+
+.rules {
+    display: grid;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 2rem;
+    font-weight: 800;
+    align-items: center;
+}
+.result{
+    font-size: 4rem;
+    font-weight: bold;
+    
+}
+.attempts{
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.how-close{
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    font-size: 2rem;
+}
+.input-section{
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+
+}
+.input{
+    display:flex;
+    height: 50px;
+    width:200px;
+    font-size: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid var(--color5);
+    border-radius: 4px;
+    -webkit-box-shadow: 10px 20px 12px -10px rgba(0,0,0,0.86);
+    -moz-box-shadow: 10px 20px 12px -10px rgba(0,0,0,0.86);
+    box-shadow: 10px 20px 12px -10px rgba(0,0,0,0.86);
+
+}
+.button{
+    height: 100px;
+    width: auto;
+    border-radius: 5px;
+    font-size: 2rem;
+    background-color: var(--color4);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-box-shadow: 10px 20px 12px -10px rgba(0,0,0,0.86);
+    -moz-box-shadow: 10px 20px 12px -10px rgba(0,0,0,0.86);
+    box-shadow: 10px 20px 12px -10px rgba(0,0,0,0.86);
+}
+.button-section{
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+}
+
+.result{
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+}
+  
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: var(--footer-height);
+    display: flex;
+    justify-content: center;
+    background-color: var(--color3);
+    
+    
+}
+ 
